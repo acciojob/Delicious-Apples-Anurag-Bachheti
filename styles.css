@@ -1,1 +1,79 @@
-/* your code here */
+*{
+	padding:0px;
+}
+.product{
+	border:1px solid black;
+	display:flex;
+	background-color:white;
+}
+.product__photo{
+	border:1px solid red;
+	background-color:lawngreen
+}
+.photo-container{
+	border:1px solid green
+}
+.photo-main{
+	border:5px solid black;
+	margin:10px;
+}
+.product__info{
+	padding:10px;
+	display:flex;
+	flex-direction:column;
+	/* justify-content:space-between */
+}
+.controls{
+	justify-content:space-between;
+	display:flex;
+	margin:5px
+}
+/* .fa-fa-heart-o{
+	display:flex;
+	width:100px;
+	justify-content:right;
+} */
+.photo-album{
+	border:5px solid white;
+	background-color: white;
+	display:flex;
+}
+.real{
+	display:flex;
+	flex-direction:row;
+}
+.real1{
+	display:flex;
+	list-style-type: none;
+}
+.apples1{
+	display:flex;
+	/* justify-content:center; */
+	/* align-content:center; */
+}
+.apples{
+	display:flex;
+	list-style-type: none;
+	flex-direction:row;
+}
+li img{
+	border: 2px solid black;
+	margin: 5px
+}
+.variant{
+	background-color:white;
+}
+.description{
+	padding:10px
+}
+.price{
+	font-size:50px;
+	color:red;
+}
+.button{
+	background-color:red;
+	color:white;
+	font-size:30px;
+	width:60%;
+	border:5px solid darkred
+}
